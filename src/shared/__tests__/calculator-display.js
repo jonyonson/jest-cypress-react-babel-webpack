@@ -4,7 +4,7 @@ import {light} from '../../themes'
 import CalculatorDisplay from '../calculator-display'
 
 test('renders', () => {
-  const {container} = render(<CalculatorDisplay value="0" />)
+  const {container} = render(<CalculatorDisplay value="0" />, {theme: light})
 
   expect(container).toMatchInlineSnapshot(`
     .emotion-0 {
