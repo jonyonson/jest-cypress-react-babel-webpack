@@ -24,12 +24,14 @@
     "@babel/preset-react": "^7.7.4",
     "@babel/runtime": "^7.7.4",
     "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "eslint": "^6.7.1",
     "eslint-config-cypress": "^0.28.0",
     "eslint-config-kentcdodds": "^14.6.1",
+    "eslint-import-resolver-jest": "^3.0.0",
     "file-loader": "^5.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
@@ -44,6 +46,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
+    "@emotion/react": "^11.1.5",
     "@emotion/styled": "^10.0.23",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
